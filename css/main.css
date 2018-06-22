@@ -1,0 +1,112 @@
+/*globle*/
+*{
+font-family:Arial, Times, serif;
+padding: 12px;
+box-sizing: border
+}
+
+.title{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*header */
+header nav{
+  color:#92A1B5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header img{
+  position: absolute;
+  width: 100%;
+}
+header h1{
+  color: white;
+  font-size: 32px;
+  letter-spacing: 10px;
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+
+/*mid body*/
+.mid-body{
+  padding: 50px 20px 20px 20px;
+}
+.left-side .date{
+  color:#525B66;
+  font-size: 10px;
+}
+
+.left-side .title{
+  color:#525B66;
+  font-size: 15px;
+}
+.left-side img{
+  width:100%;
+}
+.left-side p{
+   color:#525B66;
+  font-size: 12px;
+}
+.about .title{
+  color:#525B66;
+  font-size: 15px;
+  margin: -10px 0px;
+}
+.about p{
+  color:#525B66;
+  font-size: 12px;
+  margin: -10px 0px 0px 0px;
+}
+.about img{
+  width: 40%;
+  margin-top: -10px;
+}
+.issues .title{
+  color:#525B66;
+  font-size: 15px;
+  margin: -25px 0px 0px 0px;
+}
+.issues li{
+  color:#92A1B5;
+  font-size: 13px;
+  font-weight: bold;
+  margin:-25px 35px;
+}
+/*footer*/
+footer{
+  background-color: #D8FAFF;
+  height: 60px;
+  margin-top: -15px;
+}
+footer .title{
+  color:#525B66;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -25px;
+}
+footer .year{
+  color:#525B66;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+}
+/*layout*/
+.mid-boy {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top:100px;
+}
+.mid-body .left-side{
+  width: 60%
+}
+.mid-body .right-side{
+  display: flex;
+  flex-direction: column;
+  width: 30%
+}
