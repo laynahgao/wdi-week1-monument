@@ -1,0 +1,126 @@
+/*globle
+=====================*/
+*{
+font-family:'Raleway', sans-serif;
+box-sizing: border-box;
+}
+button{
+  text-transform: uppercase;
+}
+.title{
+  text-transform: uppercase;
+}
+body{
+  text-align: center;
+  color:#525B66;
+}
+/* Responsive images */
+img {
+  max-width: 100%;
+}
+/*layout
+==========================*/
+section{
+  padding: 10px;
+}
+.archive{
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.col-3{
+  width: 30%;
+}
+
+/*nav
+==========================*/
+nav a{
+  display: inline-block;
+  position: fixed;
+  background: white;
+}
+nav li{
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 3px;
+  margin-right: 100px;
+  letter-spacing: 2px;
+  color:#92A1B5;
+}
+
+a:hover {
+  color: #44545E;
+}
+/*header
+==========================*/
+header {
+  color: white;
+  background-repeat: no-repeat;
+}
+header h1{
+  letter-spacing: 10px;
+}
+header h2{
+  letter-spacing: 5px;
+}
+/*button
+==========================*/
+button{
+  cursor: pointer;
+  outline: 0;
+  border: 2px solid #44545E;
+  color:#525B66;
+  padding: 8px 20px;
+  background-color: transparent;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: all .3s ease-in-out;
+}
+button:hover {
+  background-color: #525B66;
+  color: white;
+  font-weight: 500;
+}
+
+.articles button {
+  margin-top: 30px;
+  margin-top: 2rem;
+}
+/*form
+===================*/
+
+form button {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+}
+
+input, textarea {
+  border: 2px solid #44545E;
+  margin-bottom: 12px;
+  margin-bottom: .8rem;
+  padding: 10px 10px;
+  outline: 0;
+}
+/*footer
+====================*/
+footer{
+margin-top: 50px;
+background-color: #D8FAFF;
+padding: 50px 15px;
+width: 100%
+}

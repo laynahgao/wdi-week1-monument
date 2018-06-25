@@ -1,0 +1,113 @@
+/*globle*/
+
+
+img{
+  max-width: 100%;
+}
+
+
+
+/*header================== */
+header{
+  background-image: url('../images/blog_header_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  text-align: center;
+}
+
+header h1{
+  color: white;
+  font-size: 35px;
+  display: inline-block;
+  margin-top: 180px;
+  letter-spacing: 15px;
+
+}
+/*layout============================*/
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.content section{
+  width: 70%;
+  text-align: left;
+  padding: 1.5em;
+}
+
+
+/*mid body*/
+aside{
+  width:25%;
+  padding: 1em;
+  text-align: left;
+}
+.date{
+  color:#525B66;
+  font-size: 10px;
+}
+
+article .title{
+  color:#525B66;
+  font-size: 15px;
+
+}
+
+article p{
+   color:#525B66;
+  font-size: 12px;
+}
+.about .title{
+  color:#525B66;
+  font-size: 15px;
+  margin: -10px 0px;
+}
+.about p{
+  color:#525B66;
+  font-size: 12px;
+  margin: -10px 0px 0px 0px;
+}
+.about img{
+  width: 40%;
+  margin-top: -10px;
+}
+.issues .title{
+  color:#525B66;
+  font-size: 15px;
+  margin: -25px 0px 0px 0px;
+}
+.issues li{
+  color:#92A1B5;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+
+
+/*footer*/
+footer{
+  background-color: #D8FAFF;
+  height: 60px;
+  margin-top: -10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+footer .title{
+  color:#525B66;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -20px;
+}
+footer .year{
+  color:#525B66;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+}
+

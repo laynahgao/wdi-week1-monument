@@ -1,0 +1,38 @@
+/*Header
+------------------*/
+header{
+  background-image: url(../images/home_header_bg.jpg);
+  background-attachment: fixed;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 150px;
+  width: 100%;
+}
+/*About
+==================*/
+#about .info {
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  background-color: #D8FAFF;
+  padding: 20px 15px;
+
+}
+/*gallery
+==================*/
+.photo{
+  columns: 3;
+  width: 100%;
+}
+.contact {
+  padding-top: 24px;
+  width: 100%;
+}
+.contact .column-3 {
+  width: 100%
+  margin-left:100px;
+
+}
+
